@@ -33,5 +33,3 @@ CREATE TABLE Employee_Project (
     FOREIGN KEY (Employee_Num_E) REFERENCES Employee(Num_E) ON DELETE CASCADE,
     FOREIGN KEY (Project_Num_P) REFERENCES Project(Num_P) ON DELETE CASCADE
 );
-
-SELECT * FROM Employee
